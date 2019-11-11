@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "commiting you\'r code to the repository"
+exit -1
+

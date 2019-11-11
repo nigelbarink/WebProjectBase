@@ -1,0 +1,48 @@
+{
+    "name": "Web development",
+    "version": "0.0.1",
+    "author": "Nigel Barink",
+    "license": "MIT",
+    "description":"An example setup",
+    "main": "app.tsx",
+    "scripts": {
+        "publish": "echo 'Not defined!\n'",
+        "build": "echo 'Not defined!\n'",
+
+        "test:e2e": "echo 'Not defined!\n'",
+        "test:unit":"# let mocha/chai run the unit tests",
+        "test:integration": "# let mocha run the unit tests",
+        "test": "npm run test:unit && npm run test:integration"
+
+    },
+    "keywords": [
+        "web-development",
+        "toolset",
+        "tool-kit",
+        "toolkit"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://git.developers.com"
+    },
+    "bugs":{
+        "url": "developers-example.dev/issues",
+        "email": "developers@email.com"
+    },
+    "devDependencies": {
+        "cypress":"^3.6.1",
+        "chai": "current",
+        "mocha": "current",
+        "sass-loader": "current",
+        "node-sass": "current",
+        "sass": "current",
+        "webpack": "current",
+        "webpack-cli":"current",
+        "@lhci/cli": "current",
+        "typescript": "current",
+        "preact":"current",
+        "ts-loader":"current",
+
+
+    }
+}
